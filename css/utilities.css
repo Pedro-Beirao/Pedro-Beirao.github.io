@@ -8,8 +8,7 @@
 }
 
 .footer-icon {
-  width: 35px;
-  height: 35px;
+  height: 25px;
 }
 
 a.icon-link {
@@ -110,5 +109,5 @@ a.no-underline:hover {
   display: flex;
   justify-content: left;
   align-items: left;
-  gap: 16px;
+  gap: 8px;
 }

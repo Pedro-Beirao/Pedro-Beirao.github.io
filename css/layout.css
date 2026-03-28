@@ -106,7 +106,6 @@ body {
 
     .project-card:hover {
       transform: rotate(3deg);
-      /*outline: 2px solid #ccc;*/
       border-radius: 1em;
       outline-offset: 10px;
       background-color: white;

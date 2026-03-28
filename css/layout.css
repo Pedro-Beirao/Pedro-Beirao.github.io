@@ -102,19 +102,22 @@ body {
       text-decoration: none;
       transition: transform 200ms ease-in-out;
       padding: 0.7em;
+      border-radius: 1em;
+      background-color: white;
+      transform-style: preserve-3d;
     }
 
     .project-card:hover {
-      transform: rotate(3deg);
-      border-radius: 1em;
-      outline-offset: 10px;
+      transform: rotate(3deg) translate3d(0, 0, 0);
       background-color: white;
       box-shadow: 0 1em 3em rgba(0, 0, 0, 0.3);
+      z-index: 10;
     }
 
     .project-card-text-container {
       flex-direction: column;
       display: flex;
+
     }
 
     .project-image {

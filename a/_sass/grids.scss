@@ -1,0 +1,36 @@
+.grid {
+  display: flex;
+  gap: 0.3em;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 1em;
+}
+
+.grid-item {
+  width: 17em;
+  height: 100%;
+  color: buttontext;
+  text-decoration: none;
+  transition: transform 200ms ease-in-out;
+  padding: 0.7em;
+  border-radius: 1em;
+  background-color: white;
+  transform-style: preserve-3d;
+}
+
+.grid-item:hover {
+  transform: rotate(3deg) translate3d(0, 0, 0);
+  background-color: white;
+  box-shadow: 0 1em 3em rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+
+.grid-item-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1em;
+}

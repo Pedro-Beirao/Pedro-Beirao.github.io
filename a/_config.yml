@@ -1,3 +1,129 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Pedro Beirão" # the name of your site, e.g. ACME Corp.
+
+github_url: https://github.com/Pedro-Beirao
+linkedin_url: https://linkedin.com/in/pedro-beirão-694386175
+
+links:
+  - link: https://github.com/
+    user: Pedro-Beirao
+    icon: github.svg
+  - name: linkedin
+    link: https://linkedin.com/in/
+    user: pedro-beirão-694386175
+    icon: linkedin.svg
+
+projects:
+  - name: dsda-doom
+    desc: One of the most important modern Doom source ports
+    link: github.com/kraflab/dsda-doom
+    blog: false
+    role: Maintainer
+    tags:
+      - doom
+  - name: dsda-launcher
+    desc: A launcher GUI for dsda-doom
+    link: github.com/Pedro-Beirao/dsda-launcher
+    blog: false
+    role: Author
+    tags:
+      - doom
+      - ui
+  - name: dsdarchive
+    desc: Website that hosts Doom's speedrunning scene
+    link: dsdarchive.com
+    blog: false
+    role: Maintainer
+    tags:
+      - doom
+      - website
+  - name: pyopenglDoom
+    desc: Doom renderer using PyOpenGL. An exercise on the anatomy of .wad
+    link: github.com/Pedro-Beirao/pyopenglDoom
+    blog: false
+    role: Author
+    tags:
+      - doom
+      - rendering
+  - name: mindcuber-python
+    desc: A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card
+    link: github.com/Pedro-Beirao/mindcuber-python
+    blog: false
+    role: Author
+    tags:
+      - robot
+  - name: Jet Set Billy
+    desc: A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy
+    link: github.com/Pedro-Beirao/Jet-Set-Billy
+    blog: false
+    role: Author
+    tags:
+      - game
+  - name: My Name is Jeff
+    desc: A game about two Robot brothers that take on challenges together
+    link: https://ec1ipse03.itch.io/mynameisjeff
+    blog: false
+    role: Author
+    tags:
+      - game
+      - godot
+  - name: Void Pursuit
+    desc: 2D spaceship shooting game
+    link: https://github.com/Pedro-Beirao/Void-Pursuit
+    blog: false
+    role: Author
+    tags:
+      - game
+      - unity
+  - name: Non Stop Dude
+    desc: Retro style platformer where you can't stop running
+    link: https://pedrobeirao.itch.io/nonstopdude
+    blog: false
+    role: Author
+    tags:
+      - game
+      - unity
+  - name: ICL Discord Bot
+    desc: Hosted in the official SuperbossGames Discord server, this is the bot that handles intruder competitive tournaments
+    link: https://github.com/Pedro-Beirao/icl-discord-bot
+    blog: false
+    role: Author
+    tags:
+      - intruder
+      - bot
+  - name: Balloon Race
+    desc: ThreeJS experimentation scene of a two player balloon race
+    link: https://github.com/Pedro-Beirao/threejs-projects/tree/master/tp3 # TODO update repo
+    blog: false
+    role: Author
+    tags:
+      - rendering
+  - name: IGN Search Engine
+    desc: A search engine (with semantic search capabilities) for the IGN review database
+    link: https://github.com/Pedro-Beirao/pri # TODO update repo
+    blog: false
+    role: Author
+    tags:
+      - search # TODO i dont like this tag
+  - name: esnake
+    desc: Project that aims to port the classic Snake game to many platforms for learning purposes
+    link: https://github.com/Pedro-Beirao/esnake
+    blog: false
+    role: Author
+    tags:
+      - learn # TODO i dont like this tag
+  - name: Blinq
+    desc: 2 player board game where the objective is to connect both side of your color/symbol, written in prolog
+    link: https://github.com/Pedro-Beirao/FEUP_PFL_2023_24
+    blog: false
+    role: Author
+    tags:
+      - logic # TODO i dont like this tag
+  - name: Blockade
+    desc: Blockade running in an Arduino with a graphics display
+    link: https://www.youtube.com/watch?v=ZYB3jM4idB0
+    blog: false
+    role: Author
+    tags:
+      - circuit # TODO i dont like this tag, maybe the same as robot?

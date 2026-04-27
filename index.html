@@ -28,14 +28,39 @@ title: Home
 </div>
 
 <span class="subheader-text">Projects</span>
+<div class="filters">
+  {% assign roles = site.projects | map: "role" | uniq %}
+  {% for role in roles %}
+    <button class="filter-role" data-role="{{ role }}">{{ role }}</button>
+  {% endfor %}
+
+  <button class="filter-blog" data-role="true">Has Blog</button>
+
+  <select id="filter-tag">
+    <option value="">All Tags</option>
+    {% assign tags = site.projects | map: "tags" | uniq %}
+    {% for tag in tags %}
+      <option value="{{ tag }}">#{{ tag }}</option>
+    {% endfor %}
+  </select>
+</div>
 <div class="grid">
   {% for project in site.projects %}
-    <a class="grid-item" href="{{ project.link }}">
+    <a class="grid-item" href="{{ project.link }}"
+      data-role="{{ project.role }}"
+      data-blog="{{ project.blog }}"
+      data-tags="{% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}">
       <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg">
       <div class="subheader-text">{{ project.name }}</div>
       <div class="body-text">{{ project.desc }}</div>
       <div class="grid">
-        {% for tag in project.tags %}
+        <div class="role">{{ project.role }}</div>
+        {% if  project.blog %}
+          <div class="blog">Blog</div>
+        {% endif %}
+      <!--</div>
+      <div class="grid">-->
+       {% for tag in project.tags %}
           <div class="tag">#{{ tag }}</div>
         {% endfor %}
       </div>
@@ -95,3 +120,5 @@ title: Home
     </div>
   </a>
 </div>
+
+<script src="/assets/js/index.js"></script>

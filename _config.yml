@@ -16,18 +16,20 @@ links:
     icon: linkedin.svg
 
 projects:
-  - name: dsda-doom # TODO want to add the actual logo
-    desc: One of the most important modern Doom source ports
-    link: https://github.com/kraflab/dsda-doom
-    blog: false
-    role: Maintainer
-    tags: [doom]
   - name: dsda-launcher
     desc: A launcher GUI for dsda-doom
     link: https://github.com/Pedro-Beirao/dsda-launcher
     blog: false
     role: Author
     tags: [doom, ui]
+
+  - name: dsda-doom # TODO want to add the actual logo
+    desc: One of the most important modern Doom source ports
+    link: https://github.com/kraflab/dsda-doom
+    blog: false
+    role: Maintainer
+    tags: [doom, rendering]
+
   - name: dsdarchive
     desc: Website that hosts Doom's speedrunning scene
     link: https://dsdarchive.com

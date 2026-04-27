@@ -220,11 +220,16 @@ body {
   border-radius: 1em;
 }
 
+.role {
+  color: lightcoral;
+}
+
+.blog {
+  color: mediumseagreen;
+}
+
 .tag {
   color: dodgerblue;
-  border-radius: 0.7em;
-  max-width: auto;
-  padding: 0.2em;
 }
 
 /* .grid {
@@ -247,6 +252,32 @@ body {
   transform-style: preserve-3d;
   box-shadow: 0 1em 3em rgba(0, 0, 0, 0.1);
 } */
+.filters {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.filters button,
+.filters select {
+  border: none;
+  border-radius: 2em;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  background-color: #eee;
+}
+.filters button.active,
+.filters select.active {
+  background-color: black;
+  color: white;
+}
+
+.filter-blog {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 * {
   box-sizing: border-box;
 }

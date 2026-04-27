@@ -24,7 +24,6 @@
   z-index: 10;
 }
 
-
 .grid-item-image {
   width: 100%;
   height: auto;
@@ -33,11 +32,16 @@
   border-radius: 1em;
 }
 
+.role {
+  color: lightcoral;
+}
+
+.blog {
+  color: mediumseagreen;
+}
+
 .tag {
   color: dodgerblue; // TODO Add per tag coloring
-  border-radius: 0.7em;
-  max-width: auto;
-  padding: 0.2em;
 }
 
 /* .grid {

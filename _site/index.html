@@ -43,25 +43,59 @@
 </div>
 
 <span class="subheader-text">Projects</span>
+<div class="filters">
+  
+  
+    <button class="filter-role" data-role="Author">Author</button>
+  
+    <button class="filter-role" data-role="Maintainer">Maintainer</button>
+  
+
+  <button class="filter-blog" data-role="true">Has Blog</button>
+
+  <select id="filter-tag">
+    <option value="">All Tags</option>
+    
+    
+      <option value="doom">#doom</option>
+    
+      <option value="ui">#ui</option>
+    
+      <option value="rendering">#rendering</option>
+    
+      <option value="website">#website</option>
+    
+      <option value="robot">#robot</option>
+    
+      <option value="game">#game</option>
+    
+      <option value="godot">#godot</option>
+    
+      <option value="unity">#unity</option>
+    
+      <option value="intruder">#intruder</option>
+    
+      <option value="bot">#bot</option>
+    
+      <option value="learn">#learn</option>
+    
+  </select>
+</div>
 <div class="grid">
   
-    <a class="grid-item" href="https://github.com/kraflab/dsda-doom">
-      <img class="grid-item-image" src="./assets/images/dsda-doom.jpg">
-      <div class="subheader-text">dsda-doom</div>
-      <div class="body-text">One of the most important modern Doom source ports</div>
-      <div class="grid">
-        
-          <div class="tag">#doom</div>
-        
-      </div>
-    </a>
-  
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/dsda-launcher">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/dsda-launcher"
+      data-role="Author"
+      data-blog="false"
+      data-tags="doom,ui">
       <img class="grid-item-image" src="./assets/images/dsda-launcher.jpg">
       <div class="subheader-text">dsda-launcher</div>
       <div class="body-text">A launcher GUI for dsda-doom</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#doom</div>
         
           <div class="tag">#ui</div>
@@ -69,12 +103,39 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://dsdarchive.com">
+    <a class="grid-item" href="https://github.com/kraflab/dsda-doom"
+      data-role="Maintainer"
+      data-blog="false"
+      data-tags="doom,rendering">
+      <img class="grid-item-image" src="./assets/images/dsda-doom.jpg">
+      <div class="subheader-text">dsda-doom</div>
+      <div class="body-text">One of the most important modern Doom source ports</div>
+      <div class="grid">
+        <div class="role">Maintainer</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#doom</div>
+        
+          <div class="tag">#rendering</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" href="https://dsdarchive.com"
+      data-role="Maintainer"
+      data-blog="false"
+      data-tags="doom,website">
       <img class="grid-item-image" src="./assets/images/dsdarchive.jpg">
       <div class="subheader-text">dsdarchive</div>
       <div class="body-text">Website that hosts Doom's speedrunning scene</div>
       <div class="grid">
+        <div class="role">Maintainer</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#doom</div>
         
           <div class="tag">#website</div>
@@ -82,12 +143,19 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/pyopenglDoom">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/pyopenglDoom"
+      data-role="Author"
+      data-blog="false"
+      data-tags="doom,rendering">
       <img class="grid-item-image" src="./assets/images/pyopenglDoom.jpg">
       <div class="subheader-text">pyopenglDoom</div>
       <div class="body-text">Doom renderer using PyOpenGL. An exercise on the anatomy of .wad</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#doom</div>
         
           <div class="tag">#rendering</div>
@@ -95,34 +163,55 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/mindcuber-python">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/mindcuber-python"
+      data-role="Author"
+      data-blog="false"
+      data-tags="robot">
       <img class="grid-item-image" src="./assets/images/mindcuber-python.jpg">
       <div class="subheader-text">mindcuber-python</div>
       <div class="body-text">A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#robot</div>
         
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/Jet-Set-Billy">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/Jet-Set-Billy"
+      data-role="Author"
+      data-blog="false"
+      data-tags="game">
       <img class="grid-item-image" src="./assets/images/Jet Set Billy.jpg">
       <div class="subheader-text">Jet Set Billy</div>
       <div class="body-text">A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#game</div>
         
       </div>
     </a>
   
-    <a class="grid-item" href="https://ec1ipse03.itch.io/mynameisjeff">
+    <a class="grid-item" href="https://ec1ipse03.itch.io/mynameisjeff"
+      data-role="Author"
+      data-blog="false"
+      data-tags="game,godot">
       <img class="grid-item-image" src="./assets/images/My Name is Jeff.jpg">
       <div class="subheader-text">My Name is Jeff</div>
       <div class="body-text">A game about two Robot brothers that take on challenges together</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#game</div>
         
           <div class="tag">#godot</div>
@@ -130,12 +219,19 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/Void-Pursuit">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/Void-Pursuit"
+      data-role="Author"
+      data-blog="false"
+      data-tags="game,unity">
       <img class="grid-item-image" src="./assets/images/Void Pursuit.jpg">
       <div class="subheader-text">Void Pursuit</div>
       <div class="body-text">2D spaceship shooting game</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#game</div>
         
           <div class="tag">#unity</div>
@@ -143,12 +239,19 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://pedrobeirao.itch.io/nonstopdude">
+    <a class="grid-item" href="https://pedrobeirao.itch.io/nonstopdude"
+      data-role="Author"
+      data-blog="false"
+      data-tags="game,unity">
       <img class="grid-item-image" src="./assets/images/Non Stop Dude.jpg">
       <div class="subheader-text">Non Stop Dude</div>
       <div class="body-text">Retro style platformer where you can't stop running</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#game</div>
         
           <div class="tag">#unity</div>
@@ -156,12 +259,19 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/icl-discord-bot">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/icl-discord-bot"
+      data-role="Author"
+      data-blog="false"
+      data-tags="intruder,bot">
       <img class="grid-item-image" src="./assets/images/ICL Discord Bot.jpg">
       <div class="subheader-text">ICL Discord Bot</div>
       <div class="body-text">Hosted in the official SuperbossGames Discord server, this is the bot that handles intruder competitive tournaments</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#intruder</div>
         
           <div class="tag">#bot</div>
@@ -169,52 +279,87 @@
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/threejs-projects/tree/master/tp3">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/threejs-projects/tree/master/tp3"
+      data-role="Author"
+      data-blog="false"
+      data-tags="rendering">
       <img class="grid-item-image" src="./assets/images/Balloon Race.jpg">
       <div class="subheader-text">Balloon Race</div>
       <div class="body-text">ThreeJS experimentation scene of a two player balloon race</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#rendering</div>
         
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/pri">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/pri"
+      data-role="Author"
+      data-blog="false"
+      data-tags="">
       <img class="grid-item-image" src="./assets/images/IGN Search Engine.jpg">
       <div class="subheader-text">IGN Search Engine</div>
       <div class="body-text">A search engine (with semantic search capabilities) for the IGN review database</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/esnake">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/esnake"
+      data-role="Author"
+      data-blog="false"
+      data-tags="learn">
       <img class="grid-item-image" src="./assets/images/esnake.jpg">
       <div class="subheader-text">esnake</div>
       <div class="body-text">Project that aims to port the classic Snake game to many platforms for learning purposes</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#learn</div>
         
       </div>
     </a>
   
-    <a class="grid-item" href="https://github.com/Pedro-Beirao/FEUP_PFL_2023_24">
+    <a class="grid-item" href="https://github.com/Pedro-Beirao/FEUP_PFL_2023_24"
+      data-role="Author"
+      data-blog="false"
+      data-tags="">
       <img class="grid-item-image" src="./assets/images/Blinq.jpg">
       <div class="subheader-text">Blinq</div>
       <div class="body-text">2 player board game where the objective is to connect both side of your color/symbol, written in prolog</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
       </div>
     </a>
   
-    <a class="grid-item" href="https://www.youtube.com/watch?v=ZYB3jM4idB0">
+    <a class="grid-item" href="https://www.youtube.com/watch?v=ZYB3jM4idB0"
+      data-role="Author"
+      data-blog="false"
+      data-tags="game">
       <img class="grid-item-image" src="./assets/images/Blockade.jpg">
       <div class="subheader-text">Blockade</div>
       <div class="body-text">Blockade running in an Arduino with a graphics display</div>
       <div class="grid">
+        <div class="role">Author</div>
         
+      <!--</div>
+      <div class="grid">-->
+       
           <div class="tag">#game</div>
         
       </div>
@@ -274,6 +419,8 @@
     </div>
   </a>
 </div>
+
+<script src="/assets/js/index.js"></script>
 
     </main>
     <!--TODO add link to this repo-->

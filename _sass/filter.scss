@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.filters button,
+.filters select{
+  border: none;
+  border-radius: 2em;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  background-color: #eee;
+
+  &.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+.filter-blog {
+  margin-left: 2em;
+  margin-right: 2em;
+}

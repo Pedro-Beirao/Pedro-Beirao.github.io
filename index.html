@@ -1,254 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Pedro Beirão</title>
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+---
+layout: default
+title: Home
+---
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
-    <!-- NAVBAR -->
-    <!--<div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <span class="nav-title">Pedro Beirão</span>
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
-    </div>-->
+<div id="introduction">
+  <div id="introduction-image">
+    <img src="./assets/images/pfp.jpg">
+  </div>
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <img src="./assets/images/pfp.jpg" class="portfolio-header-image">
-        </div>
-
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hey, I'm
-                <span style="color: blue; font-size: ;">
-                  Pedro Beirão
-                </span>
-              </span>
-              <div class="body-text">Software Engineer</div>
-            </div>
-            <!--<a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>-->
-            <div id="header-links">
-             <a class="icon-link" target="_blank" href="https://github.com/Pedro-Beirao">
-               <image src="./assets/icons/github.svg" class="footer-icon"/>
-             </a>
-             <a class="icon-link" target="_blank" href="https://linkedin.com/in/pedro-beirão-694386175">
-               <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
-             </a>
-           </div>
-        </div>
-      </div>
-
-      <!--<div id="about-section">
-        <span class="subheader-text">My Background / About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
-        </div>
-      </div>-->
-
-      <!--FOOTER -->
-      <!--<div id="footer">
-       <a class="icon-link" target="_blank" href="https://github.com/Pedro-Beirao">
-         <image src="./assets/icons/github.svg" class="footer-icon"/>
-       </a>
-     </div>-->
-
-      <div class="experience">
-        <span class="subheader-text">Experience</span>
-
-        <div class="projects-container">
-          <a class="project-card" href="https://github.com/kraflab/dsda-doom">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/dsda-doom.jpg">
-              <div class="subheader-text project-title">dsda-doom</div>
-              <div class="body-text project-card-text">Maintainer of one of the most important modern Doom source ports</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/dsda-launcher">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/dsda-launcher.jpg">
-              <div class="subheader-text project-title">dsda-launcher</div>
-              <div class="body-text project-card-text">Launcher GUI for the dsda-doom source port</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://dsdarchive.com">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/dsdarchive.jpg">
-              <div class="subheader-text project-title">dsdarchive</div>
-              <div class="body-text project-card-text">Maintainer of the website that hosts Doom's speedrunning scene</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/pyopenglDoom">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/pyopenglDoom.jpg">
-              <div class="subheader-text project-title">pyopenglDoom</div>
-              <div class="body-text project-card-text">Doom renderer using PyOpenGL. An exercise on the anatomy of .wad</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/mindcuber-python">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/mindcuber-python.jpg">
-              <div class="subheader-text project-title">mindcuber-python</div>
-              <div class="body-text project-card-text">A program that solves a Rubik's cube with a ev3 Mindstorms, without needing a SD card</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/Jet-Set-Billy">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/Jet-Set-Billy.jpg">
-              <div class="subheader-text project-title">Jet Set Billy</div>
-              <div class="body-text project-card-text">A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://ec1ipse03.itch.io/mynameisjeff">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/mynameisjeff.jpg">
-              <div class="subheader-text project-title">My Name is Jeff</div>
-              <div class="body-text project-card-text">A game about two Robot brothers that take on challenges together, made in Godot</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/Void-Pursuit">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/Void-Pursuit.jpg">
-              <div class="subheader-text project-title">Void Pursuit</div>
-              <div class="body-text project-card-text">2D spaceship shooting game, made in Unity</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://pedrobeirao.itch.io/nonstopdude">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/nonstopdude.png">
-              <div class="subheader-text project-title">Non Stop Dude</div>
-              <div class="body-text project-card-text">Retro style platformer where you can´t stop running, made in Unity</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/icl-discord-bot">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/icl-discord-bot.jpg">
-              <div class="subheader-text project-title">ICL Discord Bot</div>
-              <div class="body-text project-card-text">Hosted in the official SuperbossGames Discord server, this is the bot that handles the ICL and other Intruder tournaments</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/threejs-projects/tree/master/tp3">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/threejs-scenes.jpg">
-              <div class="subheader-text project-title">ThreeJS Scenes</div>
-              <div class="body-text project-card-text">Experimentation and various different effects achieved with ThreeJS</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/pri">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/semantic.jpg">
-              <div class="subheader-text project-title">IGN Search Engine</div>
-              <div class="body-text project-card-text">A search engine (with semantic search capabilities) for the IGN review database</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/esnake">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/esnake.jpg">
-              <div class="subheader-text project-title">esnake</div>
-              <div class="body-text project-card-text">Project that aims to port the classic Snake game to many platforms for learning purposes</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://github.com/Pedro-Beirao/FEUP_PFL_2023_24">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/blinq.jpg">
-              <div class="subheader-text project-title">Blinq</div>
-              <div class="body-text project-card-text">2 player board game where the objective is to connect both side of your color/symbol, written in Prolog</div>
-            </div>
-          </a>
-
-          <a class="project-card" href="https://www.youtube.com/watch?v=ZYB3jM4idB0">
-            <div class="project-card-text-container">
-              <img class="project-image" src="./assets/images/blockade.jpg">
-              <div class="subheader-text project-title">Blockade</div>
-              <div class="body-text project-card-text">Blockade running in an Arduino with a graphics display</div>
-            </div>
-          </a>
-
-      </div>
-
-      <!--Some other projects that I dont -->
-      <br>
-      <span class="subheader-text">Some other projects that I don't currently have a way to display neatly like the ones above:</span>
-      <div class="projects-container">
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Intruder Map Recovery</div>
-            <div class="body-text project-card-text">Scripts and tools to recover Intruder maps made with older Unity version, and port them to make them playable again</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">dsda related scripts</div>
-            <div class="body-text project-card-text">Some scripts I made and distributed to be used in dsda related purposes, as well as the one off builds</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Unity Playground</div>
-            <div class="body-text project-card-text">My personal playground project to test/show Unity stuff</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Other OSS</div>
-            <div class="body-text project-card-text">I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">FAIR</div>
-            <div class="body-text project-card-text">FAIRification of a Commercial Aircraft Accidents dataset</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">LLM Quantization</div>
-            <div class="body-text project-card-text">A comprehensive research project evaluating the impact of quantization on LLM energy consumption, inference latency, and accuracy using standardized benchmarks</div>
-          </div>
-        </a>
-
-        <a class="project-card">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Thesis</div>
-            <div class="body-text project-card-text">Building an editor for the IEC-61499 standard</div>
-          </div>
-        </a>
-      </div>
+  <div id="introduction-items">
+    <div>
+      <span class="main-title">Hey, I'm
+        <span style="color: blue; font-size: ;">
+          Pedro Beirão
+        </span>
+      </span>
+      <div class="body-text">Software Engineer</div>
     </div>
+    <div id="header-links">
+      {% for link in site.links %}
+        <a class="icon-link" target="_blank" href="{{ link.link }}{{ link.user }}">
+          <image src="./assets/icons/{{ link.icon }}" class="footer-icon"/>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
+<span class="subheader-text">Projects</span>
+<div class="grid">
+  {% for project in site.projects %}
+    <a class="grid-item" href="{{ project.link }}">
+      <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg">
+      <div class="subheader-text">{{ project.name }}</div>
+      <div class="body-text">{{ project.desc }}</div>
+    </a>
+  {% endfor %}
+</div>
 
-	</body>
-</html>
+<br>
+<span class="subheader-text">Some other projects that I don't currently have a way to display neatly like the ones above:</span>
+<div class="grid">
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">Intruder Map Recovery</div>
+      <div class="body-text">Scripts and tools to recover Intruder maps made with older Unity version, and port them to make them playable again</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">dsda related scripts</div>
+      <div class="body-text">Some scripts I made and distributed to be used in dsda related purposes, as well as the one off builds</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">Unity Playground</div>
+      <div class="body-text">My personal playground project to test/show Unity stuff</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">Other OSS</div>
+      <div class="body-text">I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">FAIR</div>
+      <div class="body-text">FAIRification of a Commercial Aircraft Accidents dataset</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">LLM Quantization</div>
+      <div class="body-text">A comprehensive research project evaluating the impact of quantization on LLM energy consumption, inference latency, and accuracy using standardized benchmarks</div>
+    </div>
+  </a>
+
+  <a class="grid-item">
+    <div class="project-card-text-container">
+      <div class="subheader-text">Thesis</div>
+      <div class="body-text">Building an editor for the IEC-61499 standard</div>
+    </div>
+  </a>
+</div>

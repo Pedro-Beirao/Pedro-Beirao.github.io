@@ -34,6 +34,11 @@ title: Home
       <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg">
       <div class="subheader-text">{{ project.name }}</div>
       <div class="body-text">{{ project.desc }}</div>
+      <div class="grid">
+        {% for tag in project.tags %}
+          <div class="tag">#{{ tag }}</div>
+        {% endfor %}
+      </div>
     </a>
   {% endfor %}
 </div>

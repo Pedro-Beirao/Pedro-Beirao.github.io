@@ -21,8 +21,6 @@
   flex-basis: 70%;
 }
 
-/* Project Section */
-/* Project Pages */
 #project-header {
   display: flex;
   flex-direction: column;
@@ -193,7 +191,6 @@ body {
   gap: 0.3em;
   flex-wrap: wrap;
   justify-content: left;
-  margin-top: 1em;
 }
 
 .grid-item {
@@ -221,6 +218,13 @@ body {
   object-fit: cover;
   object-position: center;
   border-radius: 1em;
+}
+
+.tag {
+  color: dodgerblue;
+  border-radius: 0.7em;
+  max-width: auto;
+  padding: 0.2em;
 }
 
 /* .grid {

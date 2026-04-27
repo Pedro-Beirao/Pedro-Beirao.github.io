@@ -3,7 +3,6 @@
   gap: 0.3em;
   flex-wrap: wrap;
   justify-content: left;
-  margin-top: 1em;
 }
 
 .grid-item {
@@ -32,6 +31,13 @@
   object-fit: cover;
   object-position: center;
   border-radius: 1em;
+}
+
+.tag {
+  color: dodgerblue; // TODO Add per tag coloring
+  border-radius: 0.7em;
+  max-width: auto;
+  padding: 0.2em;
 }
 
 /* .grid {

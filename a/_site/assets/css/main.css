@@ -218,12 +218,31 @@ body {
 .grid-item-image {
   width: 100%;
   height: auto;
-  margin-bottom: 1em;
   object-fit: cover;
   object-position: center;
   border-radius: 1em;
 }
 
+/* .grid {
+  columns: 17em;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.grid-item {
+  break-inside: avoid;
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  color: buttontext;
+  text-decoration: none;
+  transition: transform 200ms ease-in-out;
+  padding: 0.8em;
+  border-radius: 1em;
+  background-color: white;
+  transform-style: preserve-3d;
+  box-shadow: 0 1em 3em rgba(0, 0, 0, 0.1);
+} */
 * {
   box-sizing: border-box;
 }

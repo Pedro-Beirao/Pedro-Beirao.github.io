@@ -2,8 +2,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Pedro Beirão" # the name of your site, e.g. ACME Corp.
 
-github_url: https://github.com/Pedro-Beirao
-linkedin_url: https://linkedin.com/in/pedro-beirão-694386175
+# TODO want to add flags
+# TODO would it be possible to have 2 images in each project in the home page
+# TODO add tags to html
 
 links:
   - link: https://github.com/
@@ -15,16 +16,16 @@ links:
     icon: linkedin.svg
 
 projects:
-  - name: dsda-doom
+  - name: dsda-doom # TODO want to add the actual logo
     desc: One of the most important modern Doom source ports
-    link: github.com/kraflab/dsda-doom
+    link: https://github.com/kraflab/dsda-doom
     blog: false
     role: Maintainer
     tags:
       - doom
   - name: dsda-launcher
     desc: A launcher GUI for dsda-doom
-    link: github.com/Pedro-Beirao/dsda-launcher
+    link: https://github.com/Pedro-Beirao/dsda-launcher
     blog: false
     role: Author
     tags:
@@ -32,7 +33,7 @@ projects:
       - ui
   - name: dsdarchive
     desc: Website that hosts Doom's speedrunning scene
-    link: dsdarchive.com
+    link: https://dsdarchive.com
     blog: false
     role: Maintainer
     tags:
@@ -40,7 +41,7 @@ projects:
       - website
   - name: pyopenglDoom
     desc: Doom renderer using PyOpenGL. An exercise on the anatomy of .wad
-    link: github.com/Pedro-Beirao/pyopenglDoom
+    link: https://github.com/Pedro-Beirao/pyopenglDoom
     blog: false
     role: Author
     tags:
@@ -48,14 +49,14 @@ projects:
       - rendering
   - name: mindcuber-python
     desc: A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card
-    link: github.com/Pedro-Beirao/mindcuber-python
+    link: https://github.com/Pedro-Beirao/mindcuber-python
     blog: false
     role: Author
     tags:
       - robot
   - name: Jet Set Billy
     desc: A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy
-    link: github.com/Pedro-Beirao/Jet-Set-Billy
+    link: https://github.com/Pedro-Beirao/Jet-Set-Billy
     blog: false
     role: Author
     tags:

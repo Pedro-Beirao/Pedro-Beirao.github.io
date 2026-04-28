@@ -2,3 +2,18 @@ footer {
   margin-top: 1em;
   padding: 3em 0.5em;
 }
+
+.gray-btn {
+  border: none;
+  border-radius: 2em;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #eee;
+  color: black;
+}
+
+.gray-btn:hover {
+  background-color: black;
+  color: white;
+}

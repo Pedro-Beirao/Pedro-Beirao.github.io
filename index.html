@@ -55,8 +55,10 @@ title: Home
       <div class="subheader-text">{{ project.name }}</div>
       <div class="body-text">{{ project.desc }}</div>
       <div class="grid">
-        <div class="role">{{ project.role }}</div>
-        {% if  project.blog %}
+        {% if project.role != "Author" %}
+          <div class="role">{{ project.role }}</div>
+        {% endif %}
+        {% if project.blog %}
           <div class="blog">Blog</div>
         {% endif %}
       <!--</div>

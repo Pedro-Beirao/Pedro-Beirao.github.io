@@ -30,6 +30,10 @@ body {
   width: 90em;
 }
 
+img {
+  border-radius: 0.5em;
+}
+
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
   body {

@@ -15,3 +15,31 @@
   background-color: black;
   color: #eee;
 }
+
+.content img {
+  height: 20em;
+  object-fit: cover;
+}
+
+.content blockquote {
+  color: #666;
+}
+
+/* .content figure {
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: gray;
+  margin-top: 0.3em;
+} */
+
+.content figure {
+
+}
+
+.content figcaption {
+  display: block;
+  position: relative;
+  color: gray;
+  width: auto;
+}

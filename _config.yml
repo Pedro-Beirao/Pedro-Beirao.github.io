@@ -35,7 +35,7 @@ projects:
 
   - name: dsdarchive
     desc: Website that hosts Doom's speedrunning scene
-    link: https://dsdarchive.com
+    link: /blog/dsdarchive
     role: Maintainer
     tags: [doom, website]
 

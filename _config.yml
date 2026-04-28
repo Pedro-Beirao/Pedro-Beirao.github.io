@@ -15,11 +15,16 @@ links:
     user: pedro-beirão-694386175
     icon: linkedin.svg
 
+collections:
+  blog:
+    output: true
+    permalink: /blog/:name/
+
 projects:
   - name: dsda-launcher
     desc: A launcher GUI for dsda-doom
-    link: https://github.com/Pedro-Beirao/dsda-launcher
-    blog: false
+    link: /blog/dsda-launcher
+    blog: true
     role: Author
     tags: [doom, ui]
 

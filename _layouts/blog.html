@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div id="introduction">
+  <div id="introduction-image">
+    <img src="/assets/images/{{ page.name }}.jpg">
+  </div>
+
+  <div id="introduction-items">
+    <div>
+      <span class="main-title">{{ page.name }}</span>
+    </div>
+    <div>
+      {% for link in page.links %}
+        <a href="{{ link }}">{{ link }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  {{ content }}
+</div>

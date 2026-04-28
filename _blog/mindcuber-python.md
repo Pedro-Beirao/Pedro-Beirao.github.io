@@ -1,8 +1,8 @@
 ---
 layout: blog
-name: dsda-launcher
+name: mindcuber-python
 links:
-  - https://github.com/Pedro-Beirao/dsda-launcher
+  - https://github.com/Pedro-Beirao/mindcuber-python
 ---
 
 

@@ -1,6 +1,9 @@
+@import "header.scss";
+@import "footer.scss";
 @import "introduction.scss";
 @import "grids.scss";
 @import "filter.scss";
+@import "blog.scss";
 
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
@@ -60,10 +63,6 @@ body {
   body {
     width: 30em;
   }
-}
-
-img {
-  border-radius: 10%;
 }
 
 .nav-title {

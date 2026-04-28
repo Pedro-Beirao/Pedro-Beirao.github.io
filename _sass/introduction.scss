@@ -1,17 +1,15 @@
 #introduction {
-  margin: 10em auto;
+  margin: 2em auto;
   display: flex;
   gap: 1em;
   align-items: center;
   max-width: 70em;
 }
 
-#introduction-image {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+#introduction-image img {
   flex-basis: 30%;
   max-width: 20em;
+  border-radius: 1em;
 }
 
 #introduction-items {
@@ -20,6 +18,10 @@
   gap: 34px;
   flex-basis: 70%;
 }
+
+/* #introduction-items a {
+  color: dimgray;
+} */
 
 
 

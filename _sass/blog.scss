@@ -1,0 +1,17 @@
+.back {
+  position: sticky;
+  top: 1em;
+  text-decoration: none;
+  border: none;
+  border-radius: 2em;
+  margin: 1em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  background-color: #eee;
+  color: black;
+}
+
+.back:hover {
+  background-color: black;
+  color: #eee;
+}

@@ -1,8 +1,8 @@
 ---
 layout: blog
-name: dsda-launcher
+name: dsda-doom
 links:
-  - https://github.com/Pedro-Beirao/dsda-launcher
+  - https://github.com/kraflab/dsda-doom
 ---
 
 

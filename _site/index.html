@@ -50,6 +50,8 @@
   
     <button class="filter-role" data-role="Maintainer">Maintainer</button>
   
+    <button class="filter-role" data-role="Contributor">Contributor</button>
+  
 
   <button class="filter-blog" data-role="true">Has Blog</button>
 
@@ -79,15 +81,18 @@
     
       <option value="learn">#learn</option>
     
+      <option value="ai">#ai</option>
+    
   </select>
 </div>
 <div class="grid">
+  <!--TODO can I randomize this?-->
   
     <a class="grid-item" href="https://github.com/Pedro-Beirao/dsda-launcher"
       data-role="Author"
       data-blog="false"
       data-tags="doom,ui">
-      <img class="grid-item-image" src="./assets/images/dsda-launcher.jpg">
+      <img class="grid-item-image" src="./assets/images/dsda-launcher.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">dsda-launcher</div>
       <div class="body-text">A launcher GUI for dsda-doom</div>
       <div class="grid">
@@ -107,7 +112,7 @@
       data-role="Maintainer"
       data-blog="false"
       data-tags="doom,rendering">
-      <img class="grid-item-image" src="./assets/images/dsda-doom.jpg">
+      <img class="grid-item-image" src="./assets/images/dsda-doom.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">dsda-doom</div>
       <div class="body-text">One of the most important modern Doom source ports</div>
       <div class="grid">
@@ -127,7 +132,7 @@
       data-role="Maintainer"
       data-blog="false"
       data-tags="doom,website">
-      <img class="grid-item-image" src="./assets/images/dsdarchive.jpg">
+      <img class="grid-item-image" src="./assets/images/dsdarchive.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">dsdarchive</div>
       <div class="body-text">Website that hosts Doom's speedrunning scene</div>
       <div class="grid">
@@ -147,7 +152,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="doom,rendering">
-      <img class="grid-item-image" src="./assets/images/pyopenglDoom.jpg">
+      <img class="grid-item-image" src="./assets/images/pyopenglDoom.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">pyopenglDoom</div>
       <div class="body-text">Doom renderer using PyOpenGL. An exercise on the anatomy of .wad</div>
       <div class="grid">
@@ -167,7 +172,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="robot">
-      <img class="grid-item-image" src="./assets/images/mindcuber-python.jpg">
+      <img class="grid-item-image" src="./assets/images/mindcuber-python.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">mindcuber-python</div>
       <div class="body-text">A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card</div>
       <div class="grid">
@@ -185,7 +190,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="game">
-      <img class="grid-item-image" src="./assets/images/Jet Set Billy.jpg">
+      <img class="grid-item-image" src="./assets/images/Jet Set Billy.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Jet Set Billy</div>
       <div class="body-text">A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy</div>
       <div class="grid">
@@ -203,7 +208,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="game,godot">
-      <img class="grid-item-image" src="./assets/images/My Name is Jeff.jpg">
+      <img class="grid-item-image" src="./assets/images/My Name is Jeff.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">My Name is Jeff</div>
       <div class="body-text">A game about two Robot brothers that take on challenges together</div>
       <div class="grid">
@@ -223,7 +228,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="game,unity">
-      <img class="grid-item-image" src="./assets/images/Void Pursuit.jpg">
+      <img class="grid-item-image" src="./assets/images/Void Pursuit.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Void Pursuit</div>
       <div class="body-text">2D spaceship shooting game</div>
       <div class="grid">
@@ -243,7 +248,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="game,unity">
-      <img class="grid-item-image" src="./assets/images/Non Stop Dude.jpg">
+      <img class="grid-item-image" src="./assets/images/Non Stop Dude.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Non Stop Dude</div>
       <div class="body-text">Retro style platformer where you can't stop running</div>
       <div class="grid">
@@ -263,7 +268,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="intruder,bot">
-      <img class="grid-item-image" src="./assets/images/ICL Discord Bot.jpg">
+      <img class="grid-item-image" src="./assets/images/ICL Discord Bot.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">ICL Discord Bot</div>
       <div class="body-text">Hosted in the official SuperbossGames Discord server, this is the bot that handles intruder competitive tournaments</div>
       <div class="grid">
@@ -283,7 +288,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="rendering">
-      <img class="grid-item-image" src="./assets/images/Balloon Race.jpg">
+      <img class="grid-item-image" src="./assets/images/Balloon Race.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Balloon Race</div>
       <div class="body-text">ThreeJS experimentation scene of a two player balloon race</div>
       <div class="grid">
@@ -301,7 +306,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="">
-      <img class="grid-item-image" src="./assets/images/IGN Search Engine.jpg">
+      <img class="grid-item-image" src="./assets/images/IGN Search Engine.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">IGN Search Engine</div>
       <div class="body-text">A search engine (with semantic search capabilities) for the IGN review database</div>
       <div class="grid">
@@ -317,7 +322,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="learn">
-      <img class="grid-item-image" src="./assets/images/esnake.jpg">
+      <img class="grid-item-image" src="./assets/images/esnake.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">esnake</div>
       <div class="body-text">Project that aims to port the classic Snake game to many platforms for learning purposes</div>
       <div class="grid">
@@ -335,7 +340,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="">
-      <img class="grid-item-image" src="./assets/images/Blinq.jpg">
+      <img class="grid-item-image" src="./assets/images/Blinq.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Blinq</div>
       <div class="body-text">2 player board game where the objective is to connect both side of your color/symbol, written in prolog</div>
       <div class="grid">
@@ -351,7 +356,7 @@
       data-role="Author"
       data-blog="false"
       data-tags="game">
-      <img class="grid-item-image" src="./assets/images/Blockade.jpg">
+      <img class="grid-item-image" src="./assets/images/Blockade.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Blockade</div>
       <div class="body-text">Blockade running in an Arduino with a graphics display</div>
       <div class="grid">
@@ -365,59 +370,128 @@
       </div>
     </a>
   
-</div>
-
-<br>
-<span class="subheader-text">Some other projects that I don't currently have a way to display neatly like the ones above:</span>
-<div class="grid">
-  <a class="grid-item">
-    <div class="project-card-text-container">
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="intruder">
+      <img class="grid-item-image" src="./assets/images/Intruder Map Recovery.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Intruder Map Recovery</div>
-      <div class="body-text">Scripts and tools to recover Intruder maps made with older Unity version, and port them to make them playable again</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
+      <div class="body-text">Scripts and tools to recover Intruder maps made with older Unity versions, and port them to make them playable again</div>
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#intruder</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="doom">
+      <img class="grid-item-image" src="./assets/images/dsda related scripts.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">dsda related scripts</div>
-      <div class="body-text">Some scripts I made and distributed to be used in dsda related purposes, as well as the one off builds</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
+      <div class="body-text">Some scripts I made to be distributed to be used in dsda related purposes, as well as the one off builds</div>
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#doom</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="unity">
+      <img class="grid-item-image" src="./assets/images/Unity Playground.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Unity Playground</div>
       <div class="body-text">My personal playground project to test/show Unity stuff</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">Other OSS</div>
-      <div class="body-text">I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#unity</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="">
+      <img class="grid-item-image" src="./assets/images/FAIR.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">FAIR</div>
-      <div class="body-text">FAIRification of a Commercial Aircraft Accidents dataset</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
+      <div class="body-text">FAIRification of a Comercial Aircraft Accidents dataset</div>
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="ai">
+      <img class="grid-item-image" src="./assets/images/LLM Quantization.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">LLM Quantization</div>
-      <div class="body-text">A comprehensive research project evaluating the impact of quantization on LLM energy consumption, inference latency, and accuracy using standardized benchmarks</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
+      <div class="body-text">A comprehensive research project evaluating the impact of quantization on LLM energy consumption and performance</div>
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#ai</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Author"
+      data-blog="false"
+      data-tags="website">
+      <img class="grid-item-image" src="./assets/images/Thesis.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">Thesis</div>
       <div class="body-text">Building an editor for the IEC-61499 standard</div>
-    </div>
-  </a>
+      <div class="grid">
+        <div class="role">Author</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+          <div class="tag">#website</div>
+        
+      </div>
+    </a>
+  
+    <a class="grid-item" 
+      data-role="Contributor"
+      data-blog="false"
+      data-tags="">
+      <img class="grid-item-image" src="./assets/images/Other OSS.jpg" onerror="this.style.display='none'">
+      <div class="subheader-text">Other OSS</div>
+      <div class="body-text">I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P</div>
+      <div class="grid">
+        <div class="role">Contributor</div>
+        
+      <!--</div>
+      <div class="grid">-->
+       
+      </div>
+    </a>
+  
 </div>
 
 <script src="/assets/js/index.js"></script>

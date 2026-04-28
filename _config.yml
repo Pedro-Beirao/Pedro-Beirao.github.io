@@ -36,76 +36,143 @@ projects:
     blog: false
     role: Maintainer
     tags: [doom, website]
+
   - name: pyopenglDoom
     desc: Doom renderer using PyOpenGL. An exercise on the anatomy of .wad
     link: https://github.com/Pedro-Beirao/pyopenglDoom
     blog: false
     role: Author
     tags: [doom, rendering]
+
   - name: mindcuber-python
     desc: A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card
     link: https://github.com/Pedro-Beirao/mindcuber-python
     blog: false
     role: Author
     tags: [robot]
+
   - name: Jet Set Billy
     desc: A recreation of the cult classic game for the ZX Spectrum, Jet Set Willy
     link: https://github.com/Pedro-Beirao/Jet-Set-Billy
     blog: false
     role: Author
-    tags:
-      - game
+    tags: [game]
+
   - name: My Name is Jeff
     desc: A game about two Robot brothers that take on challenges together
     link: https://ec1ipse03.itch.io/mynameisjeff
     blog: false
     role: Author
     tags: [game, godot]
+
   - name: Void Pursuit
     desc: 2D spaceship shooting game
     link: https://github.com/Pedro-Beirao/Void-Pursuit
     blog: false
     role: Author
     tags: [game, unity]
+
   - name: Non Stop Dude
     desc: Retro style platformer where you can't stop running
     link: https://pedrobeirao.itch.io/nonstopdude
     blog: false
     role: Author
     tags: [game, unity]
+
   - name: ICL Discord Bot
     desc: Hosted in the official SuperbossGames Discord server, this is the bot that handles intruder competitive tournaments
     link: https://github.com/Pedro-Beirao/icl-discord-bot
     blog: false
     role: Author
     tags: [intruder, bot]
+
   - name: Balloon Race
     desc: ThreeJS experimentation scene of a two player balloon race
     link: https://github.com/Pedro-Beirao/threejs-projects/tree/master/tp3 # TODO update repo
     blog: false
     role: Author
     tags: [rendering]
+
   - name: IGN Search Engine
     desc: A search engine (with semantic search capabilities) for the IGN review database
     link: https://github.com/Pedro-Beirao/pri # TODO update repo
     blog: false
     role: Author
     tags: []
+
   - name: esnake
     desc: Project that aims to port the classic Snake game to many platforms for learning purposes
     link: https://github.com/Pedro-Beirao/esnake
     blog: false
     role: Author
     tags: [learn] # TODO i dont like this tag
+
   - name: Blinq
     desc: 2 player board game where the objective is to connect both side of your color/symbol, written in prolog
     link: https://github.com/Pedro-Beirao/FEUP_PFL_2023_24
     blog: false
     role: Author
     tags: []
+
   - name: Blockade
     desc: Blockade running in an Arduino with a graphics display
     link: https://www.youtube.com/watch?v=ZYB3jM4idB0
     blog: false
     role: Author
     tags: [game] # TODO i dont like this tag, maybe the same as robot?
+
+  - name: Intruder Map Recovery
+    desc: Scripts and tools to recover Intruder maps made with older Unity versions, and port them to make them playable again
+    link:
+    blog: false
+    role: Author
+    tags: [intruder]
+
+  - name: dsda related scripts
+    desc: Some scripts I made to be distributed to be used in dsda related purposes, as well as the one off builds
+    link:
+    blog: false
+    role: Author
+    tags: [doom]
+
+  - name: Unity Playground
+    desc: My personal playground project to test/show Unity stuff
+    link:
+    blog: false
+    role: Author
+    tags: [unity]
+
+  - name: FAIR
+    desc: FAIRification of a Comercial Aircraft Accidents dataset
+    link:
+    blog: false
+    role: Author
+    tags: []
+
+  - name: LLM Quantization
+    desc: A comprehensive research project evaluating the impact of quantization on LLM energy consumption and performance
+    link:
+    blog: false
+    role: Author
+    tags: [ai]
+
+  - name: Thesis
+    desc: Building an editor for the IEC-61499 standard
+    link:
+    blog: false
+    role: Author
+    tags: [website]
+
+  - name: Other OSS
+    desc: I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P
+    link:
+    blog: false
+    role: Contributor
+    tags: []
+
+  # - name:
+  #   desc:
+  #   link:
+  #   blog: false
+  #   role: Author
+  #   tags: []

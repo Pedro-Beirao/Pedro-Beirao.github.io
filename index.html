@@ -45,12 +45,13 @@ title: Home
   </select>
 </div>
 <div class="grid">
+  <!--TODO can I randomize this?-->
   {% for project in site.projects %}
-    <a class="grid-item" href="{{ project.link }}"
+    <a class="grid-item" {% if project.link %}href="{{ project.link }}"{% endif %}
       data-role="{{ project.role }}"
       data-blog="{{ project.blog }}"
       data-tags="{% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}">
-      <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg">
+      <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg" onerror="this.style.display='none'">
       <div class="subheader-text">{{ project.name }}</div>
       <div class="body-text">{{ project.desc }}</div>
       <div class="grid">
@@ -66,59 +67,6 @@ title: Home
       </div>
     </a>
   {% endfor %}
-</div>
-
-<br>
-<span class="subheader-text">Some other projects that I don't currently have a way to display neatly like the ones above:</span>
-<div class="grid">
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">Intruder Map Recovery</div>
-      <div class="body-text">Scripts and tools to recover Intruder maps made with older Unity version, and port them to make them playable again</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">dsda related scripts</div>
-      <div class="body-text">Some scripts I made and distributed to be used in dsda related purposes, as well as the one off builds</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">Unity Playground</div>
-      <div class="body-text">My personal playground project to test/show Unity stuff</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">Other OSS</div>
-      <div class="body-text">I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">FAIR</div>
-      <div class="body-text">FAIRification of a Commercial Aircraft Accidents dataset</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">LLM Quantization</div>
-      <div class="body-text">A comprehensive research project evaluating the impact of quantization on LLM energy consumption, inference latency, and accuracy using standardized benchmarks</div>
-    </div>
-  </a>
-
-  <a class="grid-item">
-    <div class="project-card-text-container">
-      <div class="subheader-text">Thesis</div>
-      <div class="body-text">Building an editor for the IEC-61499 standard</div>
-    </div>
-  </a>
 </div>
 
 <script src="/assets/js/index.js"></script>

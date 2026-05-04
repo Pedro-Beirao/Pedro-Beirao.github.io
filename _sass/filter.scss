@@ -12,10 +12,18 @@
   padding: 0.4em 1em;
   cursor: pointer;
   background-color: #eee;
+  position: relative;
+  display: flex;
+  gap: 8px;
+  height: 2.2em;
 
   &.active {
     background-color: black;
     color: white;
+  }
+
+  &.active img {
+    filter: invert(1);
   }
 }
 

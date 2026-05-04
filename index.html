@@ -20,7 +20,7 @@ title: Home
     <div id="header-links">
       {% for link in site.links %}
         <a class="icon-link" target="_blank" href="{{ link.link }}{{ link.user }}">
-          <image src="./assets/icons/{{ link.icon }}" class="footer-icon"/>
+          <img src="./assets/icons/{{ link.icon }}" class="footer-icon"/>
         </a>
       {% endfor %}
     </div>
@@ -34,7 +34,11 @@ title: Home
     <button class="filter-role" data-role="{{ role }}">{{ role }}</button>
   {% endfor %}
 
-  <button class="filter-blog" data-role="true">Has Blog</button>
+  <button class="filter-blog" data-role="true">
+    Has Blog
+
+    <img src="./assets/icons/external-link.svg" />
+  </button>
 
   <select id="filter-tag">
     <option value="">All Tags</option>
@@ -59,14 +63,17 @@ title: Home
       data-blog="{% if isBlog %}true{% else %}false{% endif %}"
       data-tags="{% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}">
       <img class="grid-item-image" src="./assets/images/{{ project.name }}.jpg" onerror="this.style.display='none'">
-      <div class="subheader-text">{{ project.name }}</div>
+      <div class="subheader-text" style="position: relative;">
+        {{ project.name }}
+
+        {% if isBlog %}
+          <img src="./assets/icons/external-link.svg" class="blog"/>
+        {% endif %}
+      </div>
       <div class="body-text">{{ project.desc }}</div>
       <div class="grid">
         {% if project.role != "Author" %}
           <div class="role">{{ project.role }}</div>
-        {% endif %}
-        {% if isBlog %}
-          <div class="blog">Blog</div>
         {% endif %}
       <!--</div>
       <div class="grid">-->

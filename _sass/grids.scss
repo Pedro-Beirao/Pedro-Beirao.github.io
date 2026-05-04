@@ -32,12 +32,18 @@
   border-radius: 1em;
 }
 
-.role {
-  color: lightcoral;
+.blog {
+  position: absolute;
+  right: 0.3em;
+  top: 0em;
+  height: 100%;
+  transform: scale(0.8);
+  /* filter: invert(1) drop-shadow(0 0 6px rgba(255,255,255,0.8));
+  mix-blend-mode: difference; */
 }
 
-.blog {
-  color: mediumseagreen;
+.role {
+  color: lightcoral;
 }
 
 .tag {

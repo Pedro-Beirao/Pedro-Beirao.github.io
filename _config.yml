@@ -46,7 +46,7 @@ projects:
     tags: [doom, rendering]
 
   - name: mindcuber-python
-    desc: A program that solved a Rubik's cube with a ev3 Mindstorms, without needing a SD card
+    desc: A program that solves a Rubik's cube with a ev3 Mindstorms, without needing a SD card
     link: /blog/mindcuber-python
     role: Author
     tags: [robot]

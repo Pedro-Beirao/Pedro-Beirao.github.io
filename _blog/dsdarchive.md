@@ -1,8 +1,13 @@
 ---
 layout: blog
+
 name: dsdarchive
 links:
+  - https://dsdarchive.com/
   - https://github.com/kraflab/dsda-r
+  
+date-created: 2026-05-01
+date-edited: 2026-05-01
 ---
 
 With kraflab’s retirement from dsda at the end of 2024, I took over the development of the website. It is built with Ruby on Rails, which makes it hard to make changes in the data organization.

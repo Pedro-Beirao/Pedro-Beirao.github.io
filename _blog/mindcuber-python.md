@@ -29,4 +29,4 @@ First, I built structure that held a phone over the cube, which the camera point
 
 Next, in order to improve solve times I identified that resetting the cube orientation to the original position after making a move is wasteful. Instead I can define transitions, the optimal way to do them. This drastically improved solve times, bringing them down to around 40 seconds.
 
-Sadly these two improvements are not present in the repository (as I said before, I barely knew how to operate git at the time), nor in the video that I posted on youtube and sometimes show people. This really annoys me as I really like to show off this project.
+Sadly these two improvements are not present in the repository (as I said before, I barely knew how to operate git at the time), nor in the video that I posted on youtube and sometimes show people. This really annoys me as I am really proud of this project.

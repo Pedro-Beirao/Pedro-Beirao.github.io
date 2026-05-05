@@ -1,8 +1,12 @@
 ---
 layout: blog
+
 name: dsda-launcher
 links:
   - https://github.com/Pedro-Beirao/dsda-launcher
+  
+date-created: 2026-05-01
+date-edited: 2026-05-01
 ---
 
 In June 2021 I grew frustrated with the old prboom macOS launcher that was still in use in dsda-doom.

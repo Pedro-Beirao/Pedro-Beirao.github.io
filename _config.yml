@@ -89,7 +89,7 @@ projects:
 
   - name: IGN Search Engine
     desc: A search engine (with semantic search capabilities) for the IGN review database
-    link: https://github.com/Pedro-Beirao/pri # TODO update repo
+    link: https://github.com/Pedro-Beirao/pri # TODO update repo and make it public
     role: Author
     tags: []
 
@@ -152,6 +152,8 @@ projects:
     link:
     role: Contributor
     tags: []
+
+  # TODO add unity-bsp
 
   # - name:
   #   desc:

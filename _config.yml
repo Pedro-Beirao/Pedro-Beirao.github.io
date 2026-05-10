@@ -57,6 +57,12 @@ projects:
     role: Author
     tags: [game]
 
+  - name: Thesis
+    desc: Building a web-based editor for the IEC-61499 standard
+    link: /blog/thesis
+    role: Author
+    tags: [website]
+
   - name: My Name is Jeff
     desc: A game about two Robot brothers that take on challenges together
     link: https://ec1ipse03.itch.io/mynameisjeff
@@ -140,12 +146,6 @@ projects:
     link:
     role: Author
     tags: [ai]
-
-  - name: Thesis
-    desc: Building an editor for the IEC-61499 standard
-    link:
-    role: Author
-    tags: [website]
 
   - name: Other OSS
     desc: I would like to find a way to include some open source projects I've contributed to, tbf it's mostly Doom related :P

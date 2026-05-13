@@ -69,15 +69,15 @@ projects:
     role: Author
     tags: [game, godot]
 
-  - name: Void Pursuit
-    desc: 2D spaceship shooting game
-    link: https://github.com/Pedro-Beirao/Void-Pursuit
+  - name: Cargo Airtime
+    desc: A game about bouncing around a ball on top of a spaceship
+    link: https://ryaniamteon.itch.io/cargo-airtime
     role: Author
     tags: [game, unity]
 
-  - name: Non Stop Dude
-    desc: Retro style platformer where you can't stop running
-    link: https://pedrobeirao.itch.io/nonstopdude
+  - name: Void Pursuit
+    desc: 2D spaceship shooting game
+    link: https://github.com/Pedro-Beirao/Void-Pursuit
     role: Author
     tags: [game, unity]
 
@@ -110,6 +110,18 @@ projects:
     link: https://github.com/Pedro-Beirao/FEUP_PFL_2023_24
     role: Author
     tags: []
+
+  - name: Non Stop Dude
+    desc: Retro style platformer where you can't stop running
+    link: https://pedrobeirao.itch.io/nonstopdude
+    role: Author
+    tags: [game, unity]
+
+  - name: Reclaiming Eldara
+    desc: Roguelite game
+    link: https://dsv-8.itch.io/reclaiming-eldara
+    role: Author
+    tags: [game, unity]
 
   - name: Blockade
     desc: Blockade running in an Arduino with a graphics display

@@ -63,12 +63,10 @@ title: Home
         {{ project.name }}
 
         {% if project.blog %}
-          <div>
-            <a href="{{ project.blog }}" class="blog"
-              onclick="event.stopPropagation();">
-              <img src="./assets/icons/external-link.svg"/>
-            </a>
-          </div>
+          <a href="{{ project.blog }}" class="blog"
+            onclick="event.stopPropagation();">
+            <img src="./assets/icons/external-link.svg"/>
+          </a>
         {% endif %}
       </div>
       <div class="body-text">{{ project.desc }}</div>

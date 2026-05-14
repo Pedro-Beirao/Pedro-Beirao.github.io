@@ -51,23 +51,24 @@ title: Home
 <div class="grid">
   <!--TODO can I randomize this?-->
   {% for project in site.projects %}
-    <!--data-blog: Check if link starts with /blog-->
-    {% assign linkStart = project.link | slice: 0, 5 %}
-    {% assign isBlog = false %}
-    {% if linkStart == '/blog' %}
-      {% assign isBlog = true %}
-    {% endif %}
     <!--data-tags: Convert tags list into string with , separators-->
-    <a class="grid-item" {% if project.link %}href="{{ project.link }}"{% endif %}
+    <div class="grid-item"
+      data-link="{{ project.link }}"
       data-role="{{ project.role }}"
-      data-blog="{% if isBlog %}true{% else %}false{% endif %}"
-      data-tags="{% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+      data-blog="{{ project.blog }}"
+      data-tags="{% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+      onclick="if(this.dataset.link)window.location.href = this.dataset.link;">
       <img class="grid-item-image" src="./assets/images/projects/{{ project.name }}.jpg" onerror="this.style.display='none'">
       <div class="subheader-text" style="position: relative;">
         {{ project.name }}
 
-        {% if isBlog %}
-          <img src="./assets/icons/external-link.svg" class="blog"/>
+        {% if project.blog %}
+          <div>
+            <a href="{{ project.blog }}" class="blog"
+              onclick="event.stopPropagation();">
+              <img src="./assets/icons/external-link.svg"/>
+            </a>
+          </div>
         {% endif %}
       </div>
       <div class="body-text">{{ project.desc }}</div>
@@ -81,7 +82,7 @@ title: Home
           <div class="tag">#{{ tag }}</div>
         {% endfor %}
       </div>
-    </a>
+    </div>
   {% endfor %}
 </div>
 

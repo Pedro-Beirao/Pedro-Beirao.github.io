@@ -50,7 +50,7 @@ function updateItems() {
     if (role != "" && item.dataset.role != role)
       item.style.display = "none";
 
-    if (blog == true && item.dataset.blog != "true")
+    if (blog == true && item.dataset.blog == "")
       item.style.display = "none";
 
     if (tag != "" && !item.dataset.tags?.split(',').includes(tag))

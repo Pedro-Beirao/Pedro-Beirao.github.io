@@ -170,6 +170,12 @@ projects:
     role: Contributor
     tags: []
 
+  - name: My config
+    desc: I would like to have a place to show my config for everything. So like show the advanced apps that I use and why.
+    link:
+    role: Author
+    tags: []
+
   # TODO add unity-bsp
 
   # - name:

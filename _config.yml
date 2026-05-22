@@ -158,8 +158,9 @@ projects:
     role: Author
     tags: []
 
-  - name: LLM Quantization
-    desc: A comprehensive research project evaluating the impact of quantization on LLM energy consumption and performance
+# TODO add link and change name in the repo to en_gb
+  - name: LLM Quantisation
+    desc: A comprehensive research project evaluating the impact of quantisation on LLM energy consumption and performance
     link:
     role: Author
     tags: [ai]

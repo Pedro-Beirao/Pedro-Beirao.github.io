@@ -27,6 +27,9 @@ title: Home
   </div>
 </div>
 
+<!--TODO add a /now page-->
+<!--TODO email the guy to get the page featured in his site nownownow.com-->
+
 <span class="subheader-text">Projects</span>
 <div class="filters">
   {% assign roles = site.projects | map: "role" | uniq %}
@@ -49,7 +52,7 @@ title: Home
   </select>
 </div>
 <div class="grid">
-  <!--TODO can I randomize this?-->
+  <!--TODO add a random button or randomise this-->
   {% for project in site.projects %}
     <!--data-tags: Convert tags list into string with , separators-->
     <div class="grid-item"

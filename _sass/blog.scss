@@ -16,26 +16,26 @@
   color: #eee;
 }
 
-.content {
+.blog-content {
   font-size: 18px;
   line-height: 26px;
-  max-width: 50em;
+  /* max-width: 50em; */
 }
 
-.content p {
+.blog-content p {
   margin-bottom: 2em;
 }
 
-.content img {
+.blog-content img {
   height: 20em;
   object-fit: cover;
 }
 
-.content blockquote {
+.blog-content blockquote {
   color: #666;
 }
 
-/* .content figure {
+/* .blog-content figure {
   display: block;
   text-align: center;
   font-size: 0.85em;
@@ -43,7 +43,7 @@
   margin-top: 0.3em;
 } */
 
-.content figcaption {
+.blog-content figcaption {
   display: block;
   position: relative;
   color: gray;

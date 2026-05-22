@@ -2,7 +2,9 @@
   display: flex;
   gap: 0.3em;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: flex-start;
+
+  width: 100%;
 }
 
 .grid-item {

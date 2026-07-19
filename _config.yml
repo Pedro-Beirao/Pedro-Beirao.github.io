@@ -10,10 +10,15 @@ links:
   - link: https://github.com/
     user: Pedro-Beirao
     icon: github.svg
-  - name: linkedin
-    link: https://linkedin.com/in/
-    user: pedro-beirão-694386175
+  - link: https://linkedin.com/in/
+    user: pedro-beirao-in
     icon: linkedin.svg
+  - link: https://itch.io/profile/
+    user: pedrobeirao
+    icon: itchio.svg
+  - link: https://www.youtube.com/@
+    user: pedrobeirao3771
+    icon: youtube.png
 
 collections:
   blog:
@@ -24,21 +29,18 @@ projects:
   - name: dsda-launcher
     desc: A launcher GUI for dsda-doom
     link: https://github.com/Pedro-Beirao/dsda-launcher
-    blog: /blog/dsda-launcher
     role: Author
     tags: [doom, ui]
 
   - name: dsda-doom # TODO want to add the actual logo
     desc: One of the most important modern Doom source ports
     link: https://github.com/kraflab/dsda-doom
-    blog: /blog/dsda-doom
     role: Maintainer
     tags: [doom, rendering]
 
   - name: dsdarchive
     desc: Website that hosts Doom's speedrunning scene
     link: https://dsdarchive.com
-    blog: /blog/dsdarchive
     role: Maintainer
     tags: [doom, website]
 
@@ -61,10 +63,9 @@ projects:
     role: Author
     tags: [game]
 
-  - name: Thesis
-    desc: Building a web-based editor for the IEC-61499 standard
-    link: /blog/thesis
-    blog: /blog/thesis
+  - name: PTERO
+    desc: IEC 61499 Compliant Remote Web-based IDE
+    link: https://ptero.pedro-beirao.eu
     role: Author
     tags: [website]
 
@@ -82,7 +83,7 @@ projects:
 
   - name: Void Pursuit
     desc: 2D spaceship shooting game
-    link: https://github.com/Pedro-Beirao/Void-Pursuit
+    link: https://pedrobeirao.itch.io/void-pursuit
     role: Author
     tags: [game, unity]
 

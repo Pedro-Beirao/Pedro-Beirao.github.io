@@ -1,8 +1,9 @@
 ---
 layout: blog
 
-name: Thesis
+name: PTERO
 links:
+  - https://ptero.pedro-beirao.eu
 
 date-created: 2026-05-11
 date-edited: 2026-05-11

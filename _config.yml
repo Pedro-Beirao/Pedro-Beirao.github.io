@@ -99,6 +99,12 @@ projects:
     role: Author
     tags: [rendering]
 
+  - name: Intruder Map Recuperation
+    desc: Script to recover Intruder maps made with older Unity versions, and port them to make them playable again
+    link: https://github.com/Pedro-Beirao/intruder-map-recuperation
+    role: Author
+    tags: [intruder]
+
   - name: IGN Search Engine
     desc: A search engine (with semantic search capabilities) for the IGN review database
     link: https://github.com/Pedro-Beirao/pri # TODO update repo and make it public
@@ -134,12 +140,6 @@ projects:
     link: https://www.youtube.com/watch?v=ZYB3jM4idB0
     role: Author
     tags: [game] # TODO i dont like this tag, maybe the same as robot?
-
-  - name: Intruder Map Recovery
-    desc: Scripts and tools to recover Intruder maps made with older Unity versions, and port them to make them playable again
-    link:
-    role: Author
-    tags: [intruder]
 
   - name: dsda related scripts
     desc: Some scripts I made to be distributed to be used in dsda related purposes, as well as the one off builds

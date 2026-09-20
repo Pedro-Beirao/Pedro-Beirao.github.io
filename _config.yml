@@ -50,6 +50,18 @@ projects:
     role: Author
     tags: [doom, rendering]
 
+  - name: ENDOOM Viewer
+    desc: Online ENDOOM graphics viewer
+    link: https://endoom.pedro-beirao.eu
+    role: Author
+    tags: [doom, rendering]
+
+  - name: PTERO
+    desc: IEC 61499 Compliant Remote Web-based IDE
+    link: https://ptero.pedro-beirao.eu
+    role: Author
+    tags: [website]
+
   - name: mindcuber-python
     desc: A program that solves a Rubik's cube with a ev3 Mindstorms, without needing a SD card
     link: https://github.com/Pedro-Beirao/mindcuber-python
@@ -62,12 +74,6 @@ projects:
     link: https://github.com/Pedro-Beirao/Jet-Set-Billy
     role: Author
     tags: [game]
-
-  - name: PTERO
-    desc: IEC 61499 Compliant Remote Web-based IDE
-    link: https://ptero.pedro-beirao.eu
-    role: Author
-    tags: [website]
 
   - name: My Name is Jeff
     desc: A game about two Robot brothers that take on challenges together

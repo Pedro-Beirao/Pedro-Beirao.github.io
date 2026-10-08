@@ -3,7 +3,7 @@ layout: blog
 
 name: dsda-doom
 links:
-  - https://github.com/kraflab/dsda-doom
+  - https://github.com/dsda-org/dsda-doom
   
 date-created: 2026-05-01
 date-edited: 2026-05-01

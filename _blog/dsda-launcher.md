@@ -3,7 +3,7 @@ layout: blog
 
 name: dsda-launcher
 links:
-  - https://github.com/Pedro-Beirao/dsda-launcher
+  - https://github.com/dsda-org/dsda-launcher
   
 date-created: 2026-05-01
 date-edited: 2026-05-01

@@ -28,13 +28,13 @@ collections:
 projects:
   - name: dsda-launcher
     desc: A launcher GUI for dsda-doom
-    link: https://github.com/Pedro-Beirao/dsda-launcher
+    link: https://github.com/dsda-org/dsda-launcher
     role: Author
     tags: [doom, ui]
 
   - name: dsda-doom # TODO want to add the actual logo
     desc: One of the most important modern Doom source ports
-    link: https://github.com/kraflab/dsda-doom
+    link: https://github.com/dsda-org/dsda-doom
     role: Maintainer
     tags: [doom, rendering]
 

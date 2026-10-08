@@ -4,7 +4,7 @@ layout: blog
 name: dsdarchive
 links:
   - https://dsdarchive.com/
-  - https://github.com/kraflab/dsda-r
+  - https://github.com/dsda-org/dsda-r
   
 date-created: 2026-05-01
 date-edited: 2026-05-01
